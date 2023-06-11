@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Figtree", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 10%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 4rem 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #222936;
+}
+
+.title-big {
+  color: rgb(253, 81, 82);
+  font-size: 65px;
+  font-weight: 800;
+}
+
+.sub-title {
+  color: rgb(253, 81, 82);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+}
